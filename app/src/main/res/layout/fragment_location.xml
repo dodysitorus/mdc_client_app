@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Include.LocationFragment">
+
+    <TextView
+        android:id="@+id/txt_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Lokasi Kantor"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textSize="14sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_location"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_location_1"
+                android:layout_below="@+id/card_content_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true">
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/location"
+                        />
+                    <LinearLayout
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Dokter Gigi Medan Dental Center Ringroad, Ngumban Surbakti"
+                            android:textColor="@color/colorPrimary"
+                            android:fontFamily="sans-serif-black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jam Layanan"
+                            android:textSize="12sp"
+                            android:fontFamily="sans-serif-black"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Senin - Sabtu : 11am - 8pm"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kontak"
+                            android:layout_marginTop="10dp"
+                            android:textSize="12sp"
+                            android:fontFamily="sans-serif-black"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0822-8533-3304"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/txt_location_btn1"
+                            style="@style/Widget.Klinik.Map.Button"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_gravity="bottom"
+                            android:text="Open Map" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_location_2"
+                android:layout_below="@+id/card_content_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true">
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/location"
+                        />
+                    <LinearLayout
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Dokter Gigi Medan Dental Center Sekip"
+                            android:textColor="@color/colorPrimary"
+                            android:fontFamily="sans-serif-black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jam Layanan"
+                            android:textSize="12sp"
+                            android:fontFamily="sans-serif-black"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Senin - Sabtu : 11am - 8pm"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kontak"
+                            android:layout_marginTop="10dp"
+                            android:textSize="12sp"
+                            android:fontFamily="sans-serif-black"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0822-5833-3305"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/txt_location_btn2"
+                            style="@style/Widget.Klinik.Map.Button"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_gravity="bottom"
+                            android:text="Open Map" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_location_3"
+                android:layout_below="@+id/card_content_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true">
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/location"
+                        />
+                    <LinearLayout
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Medan Dental Centerby Go Dental Clinic"
+                            android:textColor="@color/colorPrimary"
+                            android:fontFamily="sans-serif-black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jam Layanan"
+                            android:textSize="12sp"
+                            android:fontFamily="sans-serif-black"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Senin - Sabtu : 11am - 8pm"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kontak"
+                            android:layout_marginTop="10dp"
+                            android:textSize="12sp"
+                            android:fontFamily="sans-serif-black"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0822-5833-3306"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/txt_location_btn3"
+                            style="@style/Widget.Klinik.Map.Button"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_gravity="bottom"
+                            android:text="Open Map" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.klinikapp.Fragment
 
+import android.app.ProgressDialog.show
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -13,7 +14,10 @@ import com.example.klinikapp.DataSource.Layanan.Resource.Resource
 import com.example.klinikapp.DataSource.Layanan.Resource.ResourceState
 import com.example.klinikapp.DataSource.Layanan.Response.LayananResponse
 import com.example.klinikapp.DataSource.Layanan.ViewModel.LayananViewModel
+import com.example.klinikapp.Fragment.Include.AddServiceBottomsheet
+import com.example.klinikapp.Fragment.Include.SettingBottomSheet
 import com.example.klinikapp.R
+import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_service.*
 import kotlinx.android.synthetic.main.toolbar.*
 import org.koin.android.ext.koin.androidContext
@@ -39,6 +43,7 @@ class ServiceFragment : Fragment() {
         setupToolbar()
         Observe()
         loadData()
+        listener()
     }
 
     private fun setupToolbar(){
@@ -75,5 +80,15 @@ class ServiceFragment : Fragment() {
 
     private fun loadData(){
         vm.showLayanan()
+    }
+
+    private fun listener(){
+        fab_add_service.setOnClickListener {
+            requireActivity().supportFragmentManager.let {
+                AddServiceBottomsheet.newInstance(Bundle()).apply {
+                    show(it, tag)
+                }
+            }
+        }
     }
 }

@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/drawable/background_input_text.xml" value="0.22407407407407406" />
         <entry key="app/src/main/res/drawable/background_login.xml" value="0.22407407407407406" />
         <entry key="app/src/main/res/drawable/bottom_nav_background.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/drawable/button_btmsheet.xml" value="0.23981481481481481" />
         <entry key="app/src/main/res/drawable/button_style.xml" value="0.21851851851851853" />
         <entry key="app/src/main/res/drawable/center_menu_bottom_nav.xml" value="0.13854166666666667" />
         <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2548717948717949" />
@@ -24,6 +25,8 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/error_layout.xml" value="0.13405797101449277" />
+        <entry key="app/src/main/res/layout/fragment_add_service_bottomsheet.xml" value="0.13405797101449277" />
         <entry key="app/src/main/res/layout/fragment_doctor.xml" value="0.11803444782168186" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home_data.xml" value="0.25" />
@@ -32,6 +35,7 @@
         <entry key="app/src/main/res/layout/fragment_pasient.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_service.xml" value="0.11803444782168186" />
         <entry key="app/src/main/res/layout/fragment_setting_bottom_sheet.xml" value="0.16394927536231885" />
+        <entry key="app/src/main/res/layout/no_data_layout.xml" value="0.335" />
         <entry key="app/src/main/res/layout/shimmer_placeholder_layout.xml" value="0.11927083333333334" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.16394927536231885" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.23897435897435898" />

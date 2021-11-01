@@ -12,6 +12,22 @@
         android:layout_height="wrap_content"
         layout="@layout/toolbar"/>
 
+    <include
+        android:id="@+id/ll_noData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/no_data_layout"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/ll_errorData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/error_layout"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
 
 
     <RelativeLayout

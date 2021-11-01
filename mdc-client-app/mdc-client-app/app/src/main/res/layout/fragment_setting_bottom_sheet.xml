@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:foregroundGravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.Include.SettingBottomSheet">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        android:id="@+id/txt_modeTerang"
+        style="@style/BottomSheetItem"
+        android:text="Mode Terang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_modeGelap"
+        android:gravity="center"
+        style="@style/BottomSheetItem"
+        android:text="Mode Gelap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_modeTerang" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_logout"
+        android:gravity="center"
+        style="@style/BottomSheetItemKeluar"
+        android:layout_marginTop="8dp"
+        android:text="Keluar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_modeGelap" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.klinikapp.R
+import kotlinx.android.synthetic.main.fragment_service.*
 import kotlinx.android.synthetic.main.toolbar.*
 
 
@@ -22,6 +23,11 @@ class DoctorFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setupToolbar()
+        setupShimmer()
+    }
+
+    private fun setupShimmer() {
+        shimmerLayout.startShimmerAnimation()
     }
 
     private fun setupToolbar(){

@@ -25,6 +25,11 @@ class PasientFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         SetupToolbar()
         setUpListener()
+        setupShimmer()
+    }
+
+    private fun setupShimmer() {
+        shimmerLayout.startShimmerAnimation()
     }
 
     private fun SetupToolbar(){
